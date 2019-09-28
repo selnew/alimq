@@ -1,6 +1,8 @@
 {
     "name": "selnew/alimq",
     "description": "aliyun AMQP(RabbitMQ)、RocketMQ",
+    "keywords": ["amqp","rocketmq"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Mirze",
@@ -15,12 +17,12 @@
     },
     "autoload": {
         "psr-4": {
-            "selnew\\alimq\\": "src/"
+            "selnew\\alimq\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "selnew\\alimq\\": "src/"
+            "selnew\\alimq\\": "src"
         }
     }
 }
