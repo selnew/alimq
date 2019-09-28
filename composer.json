@@ -1,0 +1,26 @@
+{
+    "name": "selnew/alimq",
+    "description": "aliyun AMQP(RabbitMQ)、RocketMQ",
+    "authors": [
+        {
+            "name": "Mirze",
+            "email": "mirzeAdv@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "selnew\\alimq\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "selnew\\alimq\\": "src/"
+        }
+    }
+}
